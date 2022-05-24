@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #403c3b;
+    font-family: "Kalam", cursive;
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+}
+
+.container .desc {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+.case {
+    background: #303030;
+    position: relative;
+    height: 500px;
+    width: 350px;
+    border-radius: 18px;
+    border: 5px solid #1f1f1f;
+    margin: 0 auto;
+}
+
+.text {
+    position: absolute;
+    background: #303030;
+    height: 48px;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #404040;
+    top: 15px;
+    left: 20px;
+}
+
+.text h1 {
+    position: absolute;
+    color: #019875;
+    text-align: left;
+    font-size: 20px;
+    left: 15px;
+    top: -3px;
+}
+
+#musicNote {
+    position: absolute;
+    color: #bfbfbf;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    right: 20px;
+    top: -7px;
+}
+
+.key {
+    color: #fff;
+    position: absolute;
+    background: #505050;
+    display: hidden;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    border: 4px solid #606060;
+    transition: 0.08s linear;
+}
+
+#numlock {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #252525;
+    background: #303030;
+    bottom: 340px;
+    left: 20px;
+}
+
+#slash {
+    border: 3px solid #252525;
+    background: #303030;
+    bottom: 340px;
+    left: 100px;
+}
+
+#star {
+    border: 3px solid #252525;
+    background: #303030;
+    bottom: 340px;
+    left: 180px;
+}
+
+#minus {
+    border: 3px solid #252525;
+    background: #303030;
+    bottom: 340px;
+    left: 260px;
+}
+
+#seven {
+    text-align: center;
+    bottom: 260px;
+    left: 20px;
+}
+
+#eight {
+    text-align: center;
+    bottom: 260px;
+    left: 100px;
+}
+
+#nine {
+    text-align: center;
+    bottom: 260px;
+    left: 180px;
+}
+
+#plus {
+    border: 3px solid #252525;
+    background: #303030;
+    left: 260px;
+    bottom: 180px;
+    height: 140px;
+}
+
+#four {
+    text-align: center;
+    left: 20px;
+    bottom: 180px;
+}
+
+#five {
+    text-align: center;
+    left: 100px;
+    bottom: 180px;
+}
+
+#six {
+    text-align: center;
+    left: 180px;
+    bottom: 180px;
+}
+
+#one {
+    text-align: center;
+    left: 20px;
+    bottom: 100px;
+}
+
+#two {
+    text-align: center;
+    left: 100px;
+    bottom: 100px;
+}
+
+#three {
+    text-align: center;
+    left: 180px;
+    bottom: 100px;
+}
+
+#enter {
+    border: 3px solid #252525;
+    background: #303030;
+    height: 140px;
+    bottom: 20px;
+    left: 260px;
+}
+
+#zero {
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    width: 140px;
+}
+
+#dot {
+    border: 3px solid #252525;
+    background: #303030;
+    bottom: 20px;
+    left: 180px;
+}
+
+.playing {
+    background: #2ecc71;
+    transform: scale(1.1);
+}
