@@ -1,3 +1,3 @@
 # virtual-otamatone
 Playing otamatone with numpad
-![image](https://user-images.githubusercontent.com/96657413/170086150-97ca6324-3d8c-420f-aa4e-cf3f488d69ad.png)
+![image](https://user-images.githubusercontent.com/96657413/170086235-0b190887-d6f0-4bf0-ab8e-409a8bfd931b.png)
